@@ -25,7 +25,6 @@ body {
 .list {
 
     display: flex;
-    justify-content: space-betwee;
     text-decoration: none;
     list-style: none;
     font-size: 18px;
@@ -136,4 +135,112 @@ img {
 
     max-width: 100%;
     max-height: 100%;
+}
+
+.quote {
+
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #E5E7AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcontainer {
+
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+}
+
+.citat {
+
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+}
+
+.reference {
+
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.section4 {
+
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.action-text {
+
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    color: #F9FAF8;
+}
+
+.action {
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.small-action{
+
+    font-size: 16px;
+    font-style: italic;
+}
+
+.action-button > button {
+
+    margin: 10px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+
+}
+
+.footer {
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+
+    color: #F9FAF8;
+    font-size: 14px;
 }
